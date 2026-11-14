@@ -5,7 +5,7 @@
   "type": "module",
   "description": "Build pipeline for the listmonk SSR admin frontend (Bun + Alpine + Oat).",
   "scripts": {
-    "build": "bun ./build.mjs",
+    "build": "node init && bun ./build.mjs",
     "watch": "bun ./build.mjs --watch"
   },
   "dependencies": {

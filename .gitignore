@@ -2,7 +2,6 @@ static/public/static/altcha.umd.js
 static/admin/dist/
 docs/site/public/
 scripts/.icons/
-.vscode/
 
 config.toml
 docker-compose.override.yml
@@ -10,3 +9,4 @@ node_modules
 listmonk
 dist/*
 uploads/
+config.bat
